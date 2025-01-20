@@ -59,3 +59,15 @@ listElement.textContent = "List Item 4";
 ul.appendChild(listElement);
 
 ul.removeChild(listItems[2]);
+
+const listElement5 = document.createElement("li");
+listElement5.setAttribute("class", "list-item");
+listElement5.textContent = "List Item 5";
+
+ul.insertBefore(listElement5, listItems[0]);
+
+const section = document.getElementById("section-1");
+section.insertAdjacentHTML("afterbegin", "<p>New message 1 added</p>");
+section.insertAdjacentHTML("afterend", "<p>New message 2 added</p>");
+section.insertAdjacentHTML("beforebegin", "<p>New message 3 added</p>");
+section.insertAdjacentHTML("beforeend", "<p>New message 4 added</p>");
