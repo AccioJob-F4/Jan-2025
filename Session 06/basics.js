@@ -24,18 +24,18 @@
 
 // console.log("End");
 
-console.log("Start");
+// console.log("Start");
 
-setTimeout(() => {
-  console.log("setTimeout 1");
-}, 0);
+// setTimeout(() => {
+//   console.log("setTimeout 1");
+// }, 0);
 
-setTimeout(() => {
-  console.log("setTimeout 2");
-}, 1000);
+// setTimeout(() => {
+//   console.log("setTimeout 2");
+// }, 1000);
 
-setTimeout(() => {
-  console.log("setTimeout 3");
-}, 0);
+// setTimeout(() => {
+//   console.log("setTimeout 3");
+// }, 0);
 
-console.log("End");
+// console.log("End");
