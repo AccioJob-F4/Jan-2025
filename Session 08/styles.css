@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: dodgerblue;
+}
+
+#toolbar {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin: 20px;
+}
+
+#toolbar button {
+  font-size: 16px;
+  padding: 4px 14px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid dodgerblue;
+  background-color: blanchedalmond;
+  border-radius: 4px;
+}
+
+#toolbar button:hover {
+  background-color: #ddd;
+}
+
+#app {
+  width: max-content;
+  border: 0.5px dotted #ccc;
+  background-color: rgb(69, 144, 219);
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  border: 0.5px dotted #ddd;
+  width: 100px;
+  height: 30px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 30px;
+  overflow: hidden;
+}
+
+.header-row .cell {
+  font-weight: bold;
+  background-color: rgb(17, 122, 227);
+}
+
+.corner {
+  background-color: rgb(45, 104, 164);
+}
+
+.header {
+  cursor: default;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+}
